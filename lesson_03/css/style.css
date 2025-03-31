@@ -1,0 +1,44 @@
+@import "reset.css";
+
+h1 {
+    color: blue;
+}
+
+a {
+    color: yellowgreen;
+}
+
+#section-about-ukraine h2 {
+    color: blueviolet;
+}
+
+#section-about-ukraine p {
+    color: pink;
+}
+
+#section-facts h2 {
+    color: aqua;
+}
+
+ul > li {
+	color: green;
+}
+ul > li ~ li {
+	color: orange;
+}
+
+#culture h2 {
+    color: blue;
+}
+
+#culture mark {
+    color: greenyellow;
+}
+
+.cuisine h2 {
+    color:blueviolet;
+}
+
+#cuisine {
+    color: greenyellow;
+}
