@@ -1,0 +1,169 @@
+@import "reset.css";
+@import "fonts.css";
+
+.section-block {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    color: darkslategrey;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.item {
+    padding: 10px 20px 5px 15px;
+}
+
+#block1 {
+    padding-right: 50%;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+#block2 {
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    max-width: 800px;
+}
+
+#block3 {
+    padding: 5px 7px;
+    min-height: 140px;
+    background-color: bisque;
+}
+
+#block4 {
+    padding: 5px 4px 6px;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#text {
+    vertical-align: top;
+}
+
+.block-text-img {
+    padding-top: 10px;
+    vertical-align: middle;
+    max-width: 300px;
+
+}
+
+.block-text-span {
+    background-color: plum;
+}
+
+/* practice */
+
+.layout {
+    background-color: #231F8B;
+    min-height: 792px;
+    padding: 112px 0;
+}
+
+.section {
+    max-width: 1050px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.description {
+    padding-top: 112px;
+    max-width: 765px;
+    color: #FFF;
+    font-family: "Circular Std", sans-serif;
+}
+
+.description-tag {
+    color: #5A54F2;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding-bottom: 10px;
+}
+
+.description-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.description-text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-bottom: 70px;
+    font-family: "Circular Std", sans-serif;
+}
+
+.section-cards {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.card {
+    background-color: #FFF;
+    padding: 35px 40px;
+    vertical-align: top;
+    min-height: 288px;
+    max-width: 230px;
+    margin: 0 15px 30px;
+    box-sizing: border-box;
+}
+
+.card-img {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #E74040;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #737373;
+    letter-spacing: 0.2px;
+}
+
+#card3 {
+    background-color: #5A54F2;
+    color: #FFF;
+}
+
+#card3 .card-title,
+#card3 .card-content {
+    color: #FFF;
+}
+
+
+#card1,
+#card3 {
+    margin-top: -40px;
+    margin-bottom: 150px;
+}
+
+#card2,
+#card4 {
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
