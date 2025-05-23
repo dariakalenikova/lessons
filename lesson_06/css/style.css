@@ -9,18 +9,19 @@
 
 .main-block-eco {
     max-width: 648px;
+    width: 100%;
+    margin: 25px auto 0;
     font-family: "Poppins";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     color: var(--Gray-Scale-Gray-500, #808080);
-    margin-left: 25px;
-    margin-top: 25px;
+
 }
 
 #block1 #text1 {
-    padding-bottom: 21px;
+    margin-bottom: 21px;
 }
 
 .list {
@@ -48,19 +49,29 @@
 /* project 2 */
 
 .hydra {
-    background-color: #302C42;
-    margin-top: 72px;
-    padding: 30px 0 50px 0;
+  background-color: #302C42;
+  margin-top: 72px;
+  padding: 30px 0 50px 0;
+  text-align: center; 
 }
 
 .main-block-hydra {
-    background: url(../img/vector1.png) no-repeat, url(../img/vector2.png) 27% 70% no-repeat;
-    display: flex;
+  display: inline-block;
+  text-align: left;
+  max-width: 1400px;
+  width: 100%;
+
+  background: url(../img/vector1.png) no-repeat, url(../img/vector2.png) 27% 70% no-repeat;
+}
+
+.image,
+.text-block {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .image {
     margin-left: 72px;
-    display: inline-block;
 }
 
 .image img {
